@@ -1,5 +1,12 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Scanner lector = new Scanner(System.in);
+        String nombre = lector.nextLine();
+
+        System.out.println("Hola, " + nombre);
+        
+        lector.close();
     }
 }
